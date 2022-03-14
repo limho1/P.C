@@ -1,0 +1,17 @@
+'''
+2022_03_14
+2주차 수업
+'''
+'''
+print('hello');
+print("hello")
+
+print("He's name is 철수")
+print('He said "I am OK"')
+
+print("He said \"I am OK\" ")
+print("a" * 10)
+'''
+print("="*30,"\nHe said \"Python is Easy\"","\n34256곱하기2365는",34256*2365,"입니다\n","="*30)
+
+
