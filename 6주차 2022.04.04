@@ -1,0 +1,51 @@
+'''
+a=5
+#a가 0보다 크다면 반복
+#a가 0보다 큰동안 반복
+while a>0:
+      print(f'a is {a:10}');
+      a-=1
+'''
+'''문제
+#8단을 출력하는 코드를 작성하시오
+a=8
+b=1
+while a<72:
+    a=8*b
+    print(f'8 x {b} = {a:10}');
+    b+=1
+
+a=int(input("숫자 입력 :"))
+b=1
+d=a
+c=a**2
+while b<=c :
+    print(b,end=' ')
+    b+=1;
+    if a<b :
+        print()
+        a+=d
+
+a=int(input("숫자 입력 :"))
+n=1
+while n <= a*a :
+    print(f'{n:2}',end='')
+    n+=1
+    if n % a == 0 :
+        print ()
+
+'''
+시험부분
+a=int(input("숫자 입력 : "))
+b=1
+c=2
+while b<=a*a :
+    print(b,end='')
+    b+=a
+    if b>a*a :
+        print()
+        b=c
+        c+=1
+    if c>a+1 :
+        b=a*a+1
+        
